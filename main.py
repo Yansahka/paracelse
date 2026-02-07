@@ -7,7 +7,7 @@ from routers import medicaments, sync, admin
 from sqlalchemy.orm import Session
 from configs.functions import get_db
 
-app = FastAPI()
+app = FastAPI(root_path="")
 
 
 # Créer les tables dans la base BD au demarrage en dev/tests
