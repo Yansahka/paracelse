@@ -10,15 +10,13 @@ from configs.functions import get_db
 app = FastAPI()
 
 
-
-
 # Créer les tables dans la base BD au demarrage en dev/tests
 # En production, vais utiliser Alembic pour les migrations
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="PARACELSE API",
-    description="API d'Aide Médicamenteuse basée sur le cahier des charges v1.0",
+    description="API d'Aide Médicamenteuse",
     version="1.0"
 )
 
