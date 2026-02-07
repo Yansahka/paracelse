@@ -11,7 +11,7 @@ from schemas import schemas
 from configs.functions import get_db
 
 router = APIRouter(
-    prefix="/paracelse/api/v1/admin",
+    prefix="/admin",
     tags=["Administration (Protégé)"],
     # dependencies=[Depends(get_current_user_dependency)] 
 )
