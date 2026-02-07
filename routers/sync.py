@@ -8,7 +8,7 @@ from typing import Dict
 from configs.functions import get_db
 
 router = APIRouter(
-    prefix="paracelse/api/v1/sync",
+    prefix="/paracelse/api/v1/sync",
     tags=["Synchronisation"]
 )
 

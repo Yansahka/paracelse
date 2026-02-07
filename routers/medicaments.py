@@ -8,7 +8,7 @@ from schemas import schemas
 from configs.functions import get_db
 
 router = APIRouter(
-    prefix="paracelse/api/v1/medicaments",
+    prefix="/paracelse/api/v1/medicaments",
     tags=["Médicaments"]
 )
 
