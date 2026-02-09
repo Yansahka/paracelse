@@ -4,3 +4,7 @@ env/
 .env
 __pycache__/
 *.pyc
+*.pdf
+add_medoc_to_db.py
+notes.txt
+script_migrations.py

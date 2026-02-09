@@ -7,7 +7,7 @@ load_dotenv()
 
 #URL de connexion a la BD
 
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = os.getenv("ONLINE_DATABASE_URL")
 
 
 #Engin pour creer les pool de connexion et executer SQL
